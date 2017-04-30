@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.api.controller;
+package com.api.controller;
 
-import java.api.model.CEO;
-import java.api.model.Database;
+import com.api.model.CEO;
+import com.api.model.Database;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.logging.Level;
