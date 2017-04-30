@@ -25,13 +25,9 @@ public class Database {
         connect_db();
     }
     
-    public static void main(String []args){       
-       Database db = new Database();
-       Database.connect_db();
-       
-   }
+   
     
-    public static  void connect_db(){      
+    public  void connect_db(){      
         //0. REGISTER MYSQL JDBC DRIVER
         try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
@@ -99,5 +95,4 @@ public class Database {
     }
     
 }
-
 

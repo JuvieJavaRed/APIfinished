@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.api.controller;
+package com.api.controller;
 
-import java.api.model.Database;
-import java.api.model.Details;
-import java.api.model.Email;
+import com.api.model.Database;
+import com.api.model.Details;
+import com.api.model.Email;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.concurrent.ThreadLocalRandom;

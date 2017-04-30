@@ -25,7 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="main">
 	
       <h2>Signup with us to gain acess.</h2>
-      <form method="post"  action="${pageContext.request.contextPath}/CreateMemberController">
+      <form method="post"  action="${pageContext.request.contextPath}/CreateMemberController2">
 		  
 		   
 		<div class="lable">

@@ -8,7 +8,7 @@
 <html>
 <head>
 <%@page language="java" contentType="text/html" pageEncoding="UTF-8" %>
-<%@page import="java.api.model.CEO" %>
+<%@page import="com.api.model.CEO" %>
 <% CEO c = (CEO)session.getAttribute("ceo"); %>
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1">
