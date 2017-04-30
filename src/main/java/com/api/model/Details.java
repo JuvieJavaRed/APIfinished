@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.api.model;
+package com.api.model;
 
+import com.api.model.Database;
 import static java.lang.Integer.parseInt;
 import java.sql.ResultSet;
 import java.util.logging.Level;

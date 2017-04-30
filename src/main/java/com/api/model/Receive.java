@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.api.model;
+package com.api.model;
 
 import com.visa.vdp.visadirect.TestFundsTransfer;
 import java.util.logging.Level;
