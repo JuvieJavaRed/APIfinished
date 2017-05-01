@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  * @author mnyoni
  */
 public class Database {
-     String database_name;
+    String database_name;
     static Connection conn;
     
     public Database(){
@@ -33,7 +33,7 @@ public class Database {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
        
             String url = "jdbc:mysql://localhost:3306/payment1";
-            String uName = "";
+            String uName = "root";
             String uPass = "";
 				
             conn = DriverManager.getConnection( url , uName, uPass);

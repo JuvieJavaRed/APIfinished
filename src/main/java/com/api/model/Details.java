@@ -43,13 +43,13 @@ public class Details {
         }
     }
     
-    public Details get_email(String email){
-        String query = "SELECT * user2 WHERE email='"+email+"'";
+    public Details acquire_email(String email){
+        String query ="SELECT * user2 WHERE email='"+email+"'";
         Details d = new Details();
         try{
             ResultSet rs = db.select_db(query);
             while(rs.next()){
-                d.email =rs.getString("password");
+                d.email =rs.getString("email");
                 d.token_number = parseInt(rs.getString("token_number"));
                 return d;
             }

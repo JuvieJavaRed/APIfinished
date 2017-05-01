@@ -87,7 +87,7 @@ public class CreateMemberController extends HttpServlet {
         System.out.println(token_number);
         try{
             d.insert_user(email, password, token_number);
-            Details details = d.get_email(email);
+            Details details = d.acquire_email(email);
             e.send_email(email, token_number);
             request.setAttribute("details", details);
             rd = request.getRequestDispatcher("/company_details.jsp");
